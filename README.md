@@ -1,2 +1,2 @@
 # Mobile-Development-Java-Project
-Projects in Mobile development class in Java XD
+Projects in Mobile Development class in Java XD
