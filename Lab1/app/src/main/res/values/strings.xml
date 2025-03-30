@@ -4,4 +4,9 @@
     <string name="btnFalse">False</string>
     <string name="btnPrevious">Previous</string>
     <string name="btnNext">Next</string>
+    <string name="answer_correct">Correct</string>
+    <string name="answer_incorrect">Incorrect</string>
+    <string name="question_1">Sông Mekong là con sông dài nhất thế giới</string>
+    <string name="question_2">Hà Nội là thủ đô của Việt Nam</string>
+    <string name="question_3">Lập trình viên đầu tiên là nữ</string>
 </resources>

@@ -11,14 +11,14 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="In C++, a class and a struct are the same except for their default access specifier."
+        android:text="@+id/textview_question"
         android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.452" />
+        app:layout_constraintVertical_bias="0.421" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -98,6 +98,38 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/tvQuestion"
+        tools:layout_editor_absoluteX="0dp">
+
+
+        <TextView
+            android:id="@+id/tvCorrectedAnswer"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:text="Correct: "
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/tvIncorrectedAnswer"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:text="Incorrect: "
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/red" />
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
