@@ -7,12 +7,97 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/tvQuestion"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:gravity="center"
+        android:text="In C++, a class and a struct are the same except for their default access specifier."
+        android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvQuestion">
+
+        <Button
+            android:id="@+id/btnTrue"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_corner"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/btnTrue"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnFalse"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounded_corner"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/btnFalse"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/btnPrevious"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_corner"
+            android:drawableLeft="@drawable/arrow_left"
+            android:drawablePadding="20dp"
+            android:gravity="center"
+            android:text="@string/btnPrevious"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounded_corner"
+            android:drawableRight="@drawable/arrow_right"
+            android:drawablePadding="20dp"
+            android:gravity="center"
+            android:text="@string/btnNext"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

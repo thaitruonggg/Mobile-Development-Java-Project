@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/sherl/OneDrive - Naofunyan/Documents/Lab TH/Mobile/Mobile-Development-Projects-in-Java/Lab1/app/src/main/res/drawable/arrow_left.xml" value="0.1755" />
+        <entry key="..\:/Users/sherl/OneDrive - Naofunyan/Documents/Lab TH/Mobile/Mobile-Development-Projects-in-Java/Lab1/app/src/main/res/drawable/arrow_right.xml" value="0.1755" />
+        <entry key="..\:/Users/sherl/OneDrive - Naofunyan/Documents/Lab TH/Mobile/Mobile-Development-Projects-in-Java/Lab1/app/src/main/res/drawable/rounded_corner.xml" value="0.1755" />
         <entry key="..\:/Users/sherl/OneDrive - Naofunyan/Documents/Lab TH/Mobile/Mobile-Development-Projects-in-Java/Lab1/app/src/main/res/layout/activity_main.xml" value="0.245018115942029" />
       </map>
     </option>
