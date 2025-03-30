@@ -66,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
         mButtonNext = (Button) findViewById(R.id.btnNext);
         mButtonPrevious = (Button) findViewById(R.id.btnPrevious);
         mTextViewQuestion = (TextView) findViewById(R.id.tvQuestion);
-        updateQuestion();
         mTextViewCorrectedAnswer = (TextView) findViewById(R.id.tvCorrectedAnswer);
         mTextViewIncorrectedAnswer = (TextView) findViewById(R.id.tvIncorrectedAnswer);
 
@@ -104,6 +103,12 @@ public class MainActivity extends AppCompatActivity {
                 updateQuestion();
             }
         });
+
+        // Save question index when changing orientation
+        if (savedInstanceState != null) {
+            mCurrentIndex = savedInstanceState.getInt(QUESTION_INDEX,0);
+        }
+        updateQuestion ();
     }
 
     @Override
